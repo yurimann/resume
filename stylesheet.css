@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: auto;
+	background: #a5b2c6;
+	background: linear-gradient(#a5b2c6, #6d92ce);
+	background: -webkit-linear-gradient(#a5b2c6, #6d92ce);
+	background: - moz-linear-gradient(#a5b2c6, #6d92ce);
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: #a5b2c0;
+	opacity: 0.9;
+	padding: 20px 0 20px 0;
+}
+
+li {
+	display: inline;
+	padding: 50px 10px 50px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+img {
+	float: right;
+	padding: 0;
+	margin: 0;
+	max-width: 40%;
+	opacity: 0.3;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+footer {
+	clear: both;
+}
+
+.name {
+	position: relative;
+	margin-left: 100px;
+	float: left;
+	width: 40%;
+}
+
+.info {
+	clear: left;
+	float: left;
+	padding: 10px;
+	width: 20%;
+	line-height: 80%;
+	margin: 50px 0 0 15px;
+}
+
+.lorem {
+	float: right;
+	margin: 50px 0 0 0px;
+	max-width:35%;
+}
+
+.foot {
+	text-align: right;
+	font-size: 10px;
+}
+
+a:hover {
+	color: #3aea55;
+}
