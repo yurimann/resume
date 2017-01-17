@@ -3,61 +3,71 @@
 
 body {
 	margin: auto;
-	background: #a5b2c6;
-	background: linear-gradient(#a5b2c6, #6d92ce);
-	background: -webkit-linear-gradient(#a5b2c6, #6d92ce);
-	background: - moz-linear-gradient(#a5b2c6, #6d92ce);
+	background:  #a5b2c6;
+	background:  linear-gradient(#a5b2c6, #6d92ce);
+	background:  -webkit-linear-gradient(#a5b2c6, #6d92ce);
+	background: -moz-linear-gradient(#a5b2c6, #6d92ce);
 	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
+	font-family: helvetica, arial, sans-serif;
 	padding: 10px;
+	font-size: 16px;
+}
+
+nav {
+	text-align: center;
 }
 
 ul {
-	list-style-type: none;
-	text-align: center;
-	background-color: #a5b2c0;
-	opacity: 0.9;
-	padding: 20px 0 20px 0;
+	display: inline-block;
+	padding-left: 0;
 }
 
 li {
-	display: inline;
-	padding: 50px 10px 50px 10px;
+	list-style-position: inside;
 }
 
 a {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-
 }
+
 img {
 	float: right;
 	padding: 0;
 	margin: 0;
-	max-width: 40%;
+	width: 40%;
 	opacity: 0.3;
 }
 
 h1 {
-	font-size: 36px;
-	font-family: sans-serif;
+	font-size: 2rem;
+	text-align: center;
 	letter-spacing: 4px;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 1.5rem;
+	text-align: center;
+	clear: both;
+}
+
+h3 {
+	font-size: 1.05rem;
+	line-height: .5;
 }
 
 footer {
 	clear: both;
 }
 
+.head {
+	display: inline;
+	padding: 50px 10px 50px 10px;
+}
 .name {
-	position: relative;
-	margin-left: 100px;
+	margin-left: 300px;
 	float: left;
-	width: 40%;
+	width: 35%;
 }
 
 .info {
@@ -72,12 +82,53 @@ footer {
 .lorem {
 	float: right;
 	margin: 50px 0 0 0px;
-	max-width:35%;
+	width:35%;
 }
 
 .foot {
-	text-align: right;
-	font-size: 10px;
+	background: none;
+	display: inline;
+	font-size: .75em;
+	padding-top: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+
+}
+
+.exp {
+	display: list-item;
+	list-style-type: square;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.summary {
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+}
+
+.bullet {
+	background-color: black;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 5px 0px;
+	clear: both;
+}
+
+.company {
+	display: inline-block;
+	padding: 0 10px;
+	clear: left;
+}
+
+.details {
+	display: inline-block;
+	width: 80%;
+	background-color: #a5b2c0;
+	padding: 0px 10px;
+	margin-left: 7.25%;
 }
 
 a:hover {
